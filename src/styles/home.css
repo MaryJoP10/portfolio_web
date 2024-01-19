@@ -119,3 +119,50 @@ html {
     background-position: 0 0;
   }
 }
+
+
+@media screen and (max-width: 1100px) {
+  .line-left {
+    transform: translateX(-25vw) rotateZ(37deg);
+  }
+  
+  .line-right {
+    transform: translateX(25vw) rotateZ(-37deg);
+  }
+}
+@media screen and (max-width: 810px) {
+  .line-left {
+    transform: translateX(-30vw) rotateZ(37deg);
+  }
+  
+  .line-right {
+    transform: translateX(30vw) rotateZ(-37deg);
+  }
+}
+@media screen and (max-width: 670px) {
+  .line-left {
+    transform: translateX(-40vw) rotateZ(37deg);
+  }
+  
+  .line-right {
+    transform: translateX(40vw) rotateZ(-37deg);
+  }
+}
+@media screen and (max-width: 505px) {
+  .line-left {
+    transform: translateX(-50vw) rotateZ(37deg);
+  }
+  
+  .line-right {
+    transform: translateX(50vw) rotateZ(-37deg);
+  }
+}
+@media screen and (max-width: 405px) {
+  .line-left {
+    transform: translateX(-60vw) rotateZ(37deg);
+  }
+  
+  .line-right {
+    transform: translateX(60vw) rotateZ(-37deg);
+  }
+}
